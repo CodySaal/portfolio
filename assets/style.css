@@ -5,7 +5,7 @@ nav {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 header {
@@ -13,6 +13,7 @@ header {
     padding-left: 10px;
     padding-bottom: 10px;
     background-color: aqua;
+    margin-bottom: 30px;
 }
 
 .navLinks {
@@ -26,9 +27,13 @@ header {
 }
 
 .about h2 {
-    width: 50px;
+    width: 300px;
+    height: 300px;
     background-color: yellow;
     border-right-style: solid;
+    margin-top: 25px;
+    text-align: right;
+    font-size: 65px;
 }
 
 .sectionHeadings {
@@ -36,4 +41,24 @@ header {
     height: 100vh;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.work h2 {
+    width:300px;
+    height:400px;
+    background-color: aquamarine;
+    border-right-style: solid;
+    margin: 25px 0;
+    text-align: right;
+    font-size: 65px;
+}
+
+.contactMe h2 {
+    width: 300px;
+    height: 150px;
+    background-color: blueviolet;
+    border-right-style: solid;
+    margin-bottom: 25px;
+    text-align: right;
+    font-size: 65px;
 }
