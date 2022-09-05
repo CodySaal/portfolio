@@ -33,7 +33,7 @@ header {
 
 .sectionHeadings {
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: space-around;
 }
