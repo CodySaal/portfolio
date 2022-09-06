@@ -79,8 +79,28 @@ header {
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: aqua;
     grid-area: nav;
+    position: relative;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 30px;
+}
+
+nav h1 {
+    font-size: 70px;
+}
+
+#navLinks {
+    position: absolute;
+    right: 100px;
+}
+
+#navLinks li {
+    display: inline;
+    margin: 20px;
 }
 
 #aboutTitle {
@@ -129,5 +149,3 @@ footer {
 }
 
 
-
-@med
