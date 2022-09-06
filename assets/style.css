@@ -34,6 +34,7 @@ header {
     margin-top: 25px;
     text-align: right;
     font-size: 65px;
+    position: relative;
 }
 
 .sectionHeadings {
