@@ -98,11 +98,6 @@ nav {
     grid-area: pastWorkTitle;
 }
 
-.contactMe {
-    background-color: blueviolet;
-    grid-area: contactMe;
-}
-
 #aboutPara {
     background-color: brown;
     grid-area: aboutPara;
@@ -133,3 +128,6 @@ footer {
     grid-area: footer;
 }
 
+
+
+@med
