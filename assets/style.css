@@ -67,15 +67,16 @@ header {
 
 .container {
     display: grid;
-    height: 100vh;
+    height: 150vh;
     grid-template-columns: .5fr repeat(2, 1fr);
-    grid-template-rows: .2fr repeat(4, 1fr);
+    grid-template-rows: .2fr 1fr 1.5fr 1fr .5fr;
     grid-template-areas:
     "nav nav nav"
     "aboutTitle aboutPara aboutPara"
     "latestWorkTitle horiseon horiseon"
     "pastWorkTitle prework moreToCome"
-    "contactMeTitle footer footer"
+    "contactMeTitle footer footer";
+    grid-gap: .4rem;
 }
 
 nav {
@@ -86,7 +87,6 @@ nav {
     grid-area: nav;
     position: relative;
     padding: 10px 0px 10px 10px;
-    margin-bottom: 30px;
 }
 
 nav h1 {
@@ -106,16 +106,29 @@ nav h1 {
 #aboutTitle {
     background-color: aquamarine;
     grid-area: aboutTitle;
+    font-size: 55px;
+    text-align: right;
+    padding: 90px 15px;
+    border-right-style: solid;
+    
 }
 
 #latestWorkTitle {
     background-color: blue;
     grid-area: latestWorkTitle;
+    font-size: 55px;
+    text-align: right;
+    padding: 165px 15px;
+    border-right-style: solid;
 }
 
 #pastWorkTitle {
     background-color: beige;
     grid-area: pastWorkTitle;
+    font-size: 55px;
+    text-align: right;
+    padding: 90px 15px;
+    border-right-style: solid;
 }
 
 #aboutPara {
@@ -141,6 +154,10 @@ nav h1 {
 #contactMeTitle {
     background-color: red;
     grid-area: contactMeTitle;
+    font-size: 55px;
+    text-align: right;
+    padding: 23px 15px;
+    border-right-style: solid;
 }
 
 footer {
