@@ -79,7 +79,7 @@ header {
     grid-gap: .4rem;
 }
 
-nav {
+#topNav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,7 +89,7 @@ nav {
     padding: 10px 0px 10px 10px;
 }
 
-nav h1 {
+#topNav h1 {
     font-size: 70px;
 }
 
@@ -192,4 +192,14 @@ footer {
 #comingSoonSign {
     height: 100%;
     width: 100%;
+}
+
+#bottomNav ul {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#bottomNav li {
+    display: inline;
+    margin: 100px;
 }
