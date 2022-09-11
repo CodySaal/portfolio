@@ -1,3 +1,7 @@
+:root{
+    --greenColor: rgba(30, 96, 38, 0.8) ;
+}
+
 .container {
     display: grid;
     height: 150vh;
@@ -12,14 +16,23 @@
     grid-gap: .4rem;
 }
 
+#horiseon, #prework, #moreToCome {
+    border-style: solid;
+    border-color: var(--greenColor);
+}
+
+#topNav, footer{
+    background-color: var(--greenColor);
+}
+
 #topNav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: aqua;
     grid-area: nav;
     position: relative;
     padding: 10px 0px 10px 10px;
+
 }
 
 #topNav h1 {
@@ -36,74 +49,58 @@
     margin: 20px;
 }
 
-#aboutTitle {
-    background-color: aquamarine;
-    grid-area: aboutTitle;
+#aboutTitle, #latestWorkTitle, #pastWorkTitle, #contactMeTitle{
     font-size: 55px;
     text-align: right;
-    padding: 90px 15px;
+    padding-right: 15px;
     border-right-style: solid;
-    
+    border-bottom-style: solid;
+    background-color: beige;
+}
+
+#aboutTitle {
+    grid-area: aboutTitle;
 }
 
 #latestWorkTitle {
-    background-color: blue;
     grid-area: latestWorkTitle;
-    font-size: 55px;
-    text-align: right;
-    padding: 165px 15px;
-    border-right-style: solid;
 }
 
 #pastWorkTitle {
-    background-color: beige;
     grid-area: pastWorkTitle;
-    font-size: 55px;
-    text-align: right;
-    padding: 90px 15px;
-    border-right-style: solid;
+}
+
+#contactMeTitle {
+    grid-area: contactMeTitle;
 }
 
 #aboutPara {
-    background-color: brown;
     grid-area: aboutPara;
     display: flex;
     align-items: center;
     align-content: space-between;
+    background-color: var(--greenColor);
+}
+
+#horiseon, #prework, #moreToCome {
+    position: relative;
+    filter: saturate(50%);
 }
 
 #horiseon {
-    background-color: orange;
     grid-area: horiseon;
-    position: relative;
-    filter: saturate(50%);
 }
 
 #prework {
-    background-color: yellow;
     grid-area: prework;
-    position: relative;
-    filter: saturate(50%);
 }
 
 #moreToCome {
-    background-color: green;
     grid-area: moreToCome;
-    position: relative;
-    filter: saturate(50%);
 }
 
-#contactMeTitle {
-    background-color: red;
-    grid-area: contactMeTitle;
-    font-size: 55px;
-    text-align: right;
-    padding: 23px 15px;
-    border-right-style: solid;
-}
 
 footer {
-    background-color: hotpink;
     grid-area: footer;
 }
 
@@ -135,14 +132,14 @@ footer {
 
 #bottomNav li {
     display: inline-flex;
-    margin: 40px;
+    margin: 35px;
 }
 
 .projectTitleCard {
     width: 230px;
     position: absolute;
     bottom: 10px;
-    background-color: aqua;
+    background-color: beige;
     padding: 10px;
 }
 
@@ -165,5 +162,23 @@ footer {
         "moreToCome"
         "contactMeTitle"
         "footer";
+    }
+
+    #aboutTitle, #latestWorkTitle, #pastWorkTitle, #contactMeTitle{
+        font-size: 55px;
+        text-align: center;
+        border-right-style: none;
+        border-bottom-style: solid;
+    }
+
+
+    #navLinks {
+        position: absolute;
+        right: 50px;
+    }
+    
+    #navLinks li {
+        display: block;
+        margin: 10px;
     }
 }
