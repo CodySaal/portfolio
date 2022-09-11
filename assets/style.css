@@ -194,12 +194,13 @@ footer {
     width: 100%;
 }
 
-#bottomNav ul {
-    text-align: center;
-    padding-top: 40px;
+#bottomNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #bottomNav li {
-    display: inline;
-    margin: 100px;
+    display: inline-flex;
+    margin: 50px;
 }
