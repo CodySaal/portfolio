@@ -142,16 +142,22 @@ header {
 #horiseon {
     background-color: orange;
     grid-area: horiseon;
+    position: relative;
+    filter: saturate(50%);
 }
 
 #prework {
     background-color: yellow;
     grid-area: prework;
+    position: relative;
+    filter: saturate(50%);
 }
 
 #moreToCome {
     background-color: green;
     grid-area: moreToCome;
+    position: relative;
+    filter: saturate(50%);
 }
 
 #contactMeTitle {
@@ -200,7 +206,31 @@ footer {
     justify-content: space-evenly;
 }
 
+#bottomNav ul {
+    margin-top: 15px;
+}
+
 #bottomNav li {
     display: inline-flex;
-    margin: 50px;
+    margin: 40px;
+}
+
+.projectTitleCard {
+    width: 230px;
+    position: absolute;
+    bottom: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+#horiseon:hover {
+    filter: saturate(100%);
+}
+
+#prework:hover {
+    filter: saturate(100%);
+}
+
+#moreToCome:hover {
+    filter: saturate(100%);
 }
