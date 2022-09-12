@@ -18,6 +18,8 @@ N/A
 
 ![Portfolio Screenshot](assets/images/portfolio-screenshot.png)
 
+Link to live site: https://codysaal.github.io/portfolio/
+
 ## Credits
 
 I used the video in the link below in order to get an understanding how display:grid worked.
