@@ -22,9 +22,9 @@ Link to live site: https://codysaal.github.io/portfolio/
 
 ## Credits
 
-I used the video in the link below in order to get an understanding how display:grid worked.
+I used the video in the link below in order to get an understanding of how display:grid worked.
 
-[https://youtu.be/68O6eOGAGqA]
+https://youtu.be/68O6eOGAGqA
 
 ## License
 
