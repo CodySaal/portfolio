@@ -89,7 +89,7 @@
 }
 
 #horiseon {
-    grid-area: horiseon;
+    grid-area: moreToCome;
 }
 
 #prework {
@@ -97,7 +97,7 @@
 }
 
 #moreToCome {
-    grid-area: moreToCome;
+    grid-area: horiseon;
 }
 
 
